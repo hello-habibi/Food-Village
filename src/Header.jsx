@@ -26,8 +26,8 @@ function Header() {
       >
         
  
-        <a href="#" className="flex items-center">
-          Menu
+        <a href="#" className="flex items-center hover:text-blue-500 focus:text-blue-500">
+          Home
         </a>
       </Typography>
       <Typography
@@ -37,8 +37,8 @@ function Header() {
         className="flex items-center gap-x-2 p-1 font-medium"
       >
         
-        <a href="#" className="flex items-center">
-          Location
+        <a href="#" className="flex items-center hover:text-blue-500 focus:text-blue-500">
+          Category
         </a>
       </Typography>
       <Typography
@@ -48,7 +48,7 @@ function Header() {
         className="flex items-center gap-x-2 p-1 font-medium"
       >
         
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center hover:text-blue-500 focus:text-blue-500">
           About
         </a>
       </Typography>
@@ -59,7 +59,7 @@ function Header() {
         className="flex items-center gap-x-2 p-1 font-medium"
       >
         
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center hover:text-blue-500 focus:text-blue-500">
           Contact
         </a>
       </Typography>
@@ -67,14 +67,14 @@ function Header() {
   );
  
   return (
-    <Navbar className="mx-auto max-w-full px-4 py-2 lg:px-8 lg:py-4">
+    <Navbar className="mx-auto max-w-full px-4 py-2 lg:px-8 lg:py-4 fixed">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
-          Material Tailwind
+          Food-Village
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <div className="flex items-center gap-x-1">
